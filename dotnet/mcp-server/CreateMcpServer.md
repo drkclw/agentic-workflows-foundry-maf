@@ -262,31 +262,31 @@ The server will start on `http://localhost:5000`. The MCP endpoint is available 
 2. You will be asked if you want to install the MCP inspector packages, type `y` and hit "Enter".
 3. Once the inspector is running, the UI will open automatically:
 
-![MCP Inspector UI](images/mcp-Inspector-home.png)
+![MCP Inspector UI](../../images/mcp-inspector-home.png)
 
 4. Click on the "Add Server" button and select "Add manually":
 
-![Adding server](images/mcp-inspector-add-manually.png)
+![Adding server](../../images/mcp-inspector-add-manually.png)
 
 5. Fill out the screen with the following information:
 
-![Adding server manually](images/mcp-inspector-add-server.png)
+![Adding server manually](../../images/mcp-inspector-add-server.png)
 
 6. To connect to the server, click on the "Disconnected" toggle:
 
-![Connect to MCP server](images/mcp-inspector-connect.png)
+![Connect to MCP server](../../images/mcp-inspector-connect.png)
 
 7. Click on "Tools":
 
-![Tools list](images/mcp-inspector-inventory-tool.png)
+![Tools list](../../images/mcp-inspector-inventory-tool.png)
 
 8. Select the "check_inventory" tool:
 
-![Check inventory tool](images/mcp-inspector-inventory-check.png)
+![Check inventory tool](../../images/mcp-inspector-inventory-check.png)
 
 9. Set the value of storeId to 1 and click "Execute Tool", the server should return the store inventory:
 
-![Inventory results](images/mcp-inspector-inventory-results.png)
+![Inventory results](../../images/mcp-inspector-inventory-results.png)
 
 ## Step 10: Create the Order Tool
 
