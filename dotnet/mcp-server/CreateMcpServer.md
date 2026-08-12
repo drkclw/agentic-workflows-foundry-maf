@@ -262,7 +262,7 @@ The server will start on `http://localhost:5000`. The MCP endpoint is available 
 2. You will be asked if you want to install the MCP inspector packages, type `y` and hit "Enter".
 3. Once the inspector is running, the UI will open automatically:
 
-![MCP Inspector UI](images/mcp-inspector-home.png)
+![MCP Inspector UI](images/mcp-Inspector-home.png)
 
 4. Click on the "Add Server" button and select "Add manually":
 
