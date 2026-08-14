@@ -41,6 +41,6 @@ For a step by step guide, see the [MCP Server](./dotnet/mcp-server/CreateMcpServ
 
 Create a **single agent** that connects to the MCP server and answers natural language questions about orders, products, inventory, and sales.
 
-a. Follow the [Order Specialist Agent (Foundry)](./python/order-specialist-agent/CreateOrderSpecialistAgent.md) guide to build the agent in Foundry.
+a. Follow the [Order Specialist Agent (Foundry)](./foundry/order-specialist/OrderSpecialistAgent.md) guide to build the agent in Foundry.
 
 **Key technologies:** Azure OpenAI, Microsoft Foundry
