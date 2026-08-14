@@ -154,6 +154,10 @@ This single command will:
 2. Provision the App Service Plan and Web App via Bicep
 3. Deploy the application code
 
+If you encounter the following error, re-run the *azd up* command
+
+![MCP Inspector UI](../../images/deployment-error.png)
+
 ### 7. Verify the deployment
 
 Once deployment completes, azd prints the endpoint URL. Test it with:
