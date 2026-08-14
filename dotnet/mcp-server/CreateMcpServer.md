@@ -598,6 +598,12 @@ public class ProductTools
 
 ---
 
+## Step 12: Deploy to Azure
+
+Once you have verified that the MCP server is running locally, you can deploy it to Azure using the Azure Developer CLI (azd). For detailed instructions, see the [Deploying to Azure](DeployMcpServer.md) section.
+
+---
+
 ## Tool Authoring Pattern
 
 To add a new tool:
