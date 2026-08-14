@@ -44,3 +44,17 @@ Create a **single agent** that connects to the MCP server and answers natural la
 a. Follow the [Order Specialist Agent (Foundry)](./foundry/order-specialist/OrderSpecialistAgent.md) guide to build the agent in Foundry.
 
 **Key technologies:** Azure OpenAI, Microsoft Foundry
+
+## Part 3: Order Return Workflow — OrderReturnWorkflow
+
+Build a **multi-agent workflow** that processes order returns end-to-end using three specialized agents:
+
+1. **Order Retriever** — Looks up the customer's order, validates return eligibility (30-day window, no cut lumber or mixed paint), and hands off eligible items.
+2. **Refund Calculator** — Computes refund amounts using a local tool, determines refund method, and hands off to inventory.
+3. **Inventory Restorer** — Checks current stock levels and decides whether to restock locally or redistribute to another store, then produces a final Return Authorization.
+
+The agents hand off work automatically and the workflow terminates when a "return authorization" is generated or after 10 agent turns.
+
+For a step by step guide, see the [Order Return Workflow](./dotnet/order-return-workflow/OrderReturnWorkflow.md) section.
+
+**Key technologies:** Microsoft Agent Framework, Azure OpenAI, MCP Client
